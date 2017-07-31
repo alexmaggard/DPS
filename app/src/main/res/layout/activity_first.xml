@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alex.dps.FirstActivity">
+
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:onClick="onClickNext"
+        android:text="@string/next" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onClickClear"
+        android:text="@string/clear" />
+
+    <TextView
+        android:id="@+id/itemLabelTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/what_is_the_total_of_the_item_you_are_saving_for" />
+
+    <EditText
+        android:id="@+id/itemETV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="false"
+        android:layout_below="@+id/itemLabelTV"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/downPaymentLabelTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:text="@string/what_percent_downpayment_are_you_making"
+        android:layout_below="@+id/itemETV"
+        android:layout_alignRight="@+id/itemETV"
+        android:layout_alignEnd="@+id/itemETV" />
+
+    <EditText
+        android:id="@+id/downPaymentETV"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/downPaymentLabelTV"
+        android:layout_alignBottom="@+id/downPaymentLabelTV"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:ems="10"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/interestLabelTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/what_interest_rate_will_you_be_paying"
+        android:layout_marginTop="43dp"
+        android:layout_below="@+id/downPaymentETV"
+        android:layout_alignLeft="@+id/downPaymentLabelTV"
+        android:layout_alignStart="@+id/downPaymentLabelTV" />
+
+    <EditText
+        android:id="@+id/interestETV"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_alignBaseline="@+id/interestLabelTV"
+        android:layout_alignBottom="@+id/interestLabelTV"
+        android:layout_alignLeft="@+id/downPaymentETV"
+        android:layout_alignStart="@+id/downPaymentETV" />
+
+    <TextView
+        android:id="@+id/savingsLabelTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/interestETV"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:text="@string/_0_00"
+        android:textSize="50sp"
+        android:textColor="#378B2E"/>
+</RelativeLayout>

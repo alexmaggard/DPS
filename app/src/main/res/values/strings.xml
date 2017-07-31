@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">DownPaymentSaver</string>
+    <string name="what_percent_downpayment_are_you_making">What percent downpayment are you making?</string>
+    <string name="what_is_the_total_of_the_item_you_are_saving_for">What is the total of the item you are saving for?</string>
+    <string name="what_interest_rate_will_you_be_paying">What interest rate will you be paying?</string>
+    <string name="_0_00">$0.00</string>
+    <string name="clear">clear</string>
+    <string name="next">next</string>
+    <string name="downpayment_target">Downpayment Target</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="short_term_saving">Short term saving</string>
+    <string name="medium_term_saving">Medium Term Saving</string>
+    <string name="long_term_saving">Long term saving</string>
+    <string name="x">x</string>
+    <string name="_24">24</string>
+    <string name="_2">2</string>
+    <string name="_12">12</string>
+    <string name="_1">1</string>
+    <string name="x2">x2</string>
+    <string name="x3">x3</string>
+    <string name="_6">6</string>
+    <string name="_1z">1z</string>
+    <string name="amount_to_save">AMOUNT TO SAVE</string>
+    <string name="months">MONTHS</string>
+    <string name="years">YEARS</string>
+</resources>
